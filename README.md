@@ -26,3 +26,18 @@ To run this project locally, you will need the [.NET 8 SDK](https://dotnet.micro
 ```bash
 cd CrownControl.Api
 dotnet run
+```
+The API will start locally. Make sure the port matches the API_URL in the React app.
+
+2. Boot the Frontend (React)
+Open a separate terminal window:
+
+```Bash
+cd crown-control-ui
+npm install
+npm run dev
+```
+
+Navigate to the provided localhost URL to view the dashboard.
+
+Designed and developed by Shikhar Sinha.
