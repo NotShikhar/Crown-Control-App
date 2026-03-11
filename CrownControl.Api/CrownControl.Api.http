@@ -1,0 +1,6 @@
+@CrownControl.Api_HostAddress = http://localhost:5234
+
+GET {{CrownControl.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
